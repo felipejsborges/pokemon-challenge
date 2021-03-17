@@ -1,0 +1,34 @@
+{
+  "name": "pokemon-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start:dev": "nodemon --exec ts-node src/index.ts",
+    "start:debug": "nodemon --exec ts-node src/index.ts --inspect"
+  },
+  "dependencies": {
+    "apollo-server-express": "^2.21.1",
+    "body-parser": "^1.19.0",
+    "class-validator": "^0.13.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "formidable": "^1.2.2",
+    "graphql": "^15.5.0",
+    "graphql-upload": "^11.0.0",
+    "mongoose": "^5.12.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/express-graphql": "^0.9.0",
+    "@types/formidable": "^1.0.32",
+    "@types/graphql-upload": "^8.0.4",
+    "@types/uuid": "^8.3.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
