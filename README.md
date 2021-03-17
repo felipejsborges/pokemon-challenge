@@ -84,6 +84,7 @@ $ yarn start:dev
 <hr>
 
 <h4>Using app 📡</h4>
+
 - GraphQL provides a automatic documentation that could be consulted to see all possible requests
 
 - Most queries could be executed on GraphQL playground. But file upload must be done using Insomia or Postman: [Click here](.github/insomnia.json), copy the content, create .json with it, and import it on [Insomnia](https://insomnia.rest/)
