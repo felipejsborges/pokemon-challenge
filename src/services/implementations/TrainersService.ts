@@ -42,10 +42,10 @@ export class TrainersService implements ITrainersService {
 		return trainer
 	}
 
-	async updateById(id: string, { name, pokemons }: Partial<ITrainerInput>): Promise<ITrainer | null> {
-		this.checkQuantityPerTrainer(pokemons)
+	async updateById(id: string, data: Partial<ITrainerInput>): Promise<ITrainer | null> {
+		this.checkQuantityPerTrainer(data.pokemons)
 
-		const updatedTrainer = await this.trainersRepository.updateById(id, { name, pokemons })
+		const updatedTrainer = await this.trainersRepository.updateById(id, data)
 
 		if (!updatedTrainer) throw new Error('Trainer not found')
 
