@@ -24,7 +24,7 @@
 		<!-- version, status da build, status dos testes -->
 	</p>
 	<br>
-	<img src="https://storage.googleapis.com/kaggle-datasets-images/2756/4568/0e75fe00a8bd525f83ee2c2f44911fce/data-original.jpg" alt="banner" width="80%" />
+	<img src="/.github/banner.jpg" alt="banner" width="80%" />
 </div>
 
 
