@@ -44,10 +44,10 @@
 This application was developed in order to learn and practice GraphQL and Mongoose. To do that, I based on a Pokemon Challenge. What I had to do is:
 - Download a CSV File with all pokemons and their attributes: [Download CSV FIle](https://www.kaggle.com/rounakbanik/pokemon).
 - Create a script to populate database with this data.
-- Create a GraphQL query that allow tho show 10 random pokemons. And it need to be possible to filter pokemons by attributes.
+- Create a GraphQL query that allow to show 10 random pokemons. And it needs to be possible to filter pokemons by attributes.
 - Save the randomly generated pokemons in a collection.
-- Avatar picture upload for pokemons
-- Register trainers that could have 7 pokemons maximum
+- Avatar picture upload for pokemons.
+- Register trainers that could have 7 pokemons maximum.
 
 <hr>
 
@@ -60,13 +60,6 @@ This application was developed in order to learn and practice GraphQL and Mongoo
 
 <hr>
 
-<h4>Routes 📡</h4>
-- Most of queries could be executed on GraphQL playground. But file upload must be done using Insomia or Postman
-
-- [Click here](.github/insomnia.json), copy the content, create .json with it, and import it on [Insomnia](https://insomnia.rest/)
-
-<hr>
-
 <h4>How to run it on your computer 🖥️</h4>
 
 - Install [Node.js](https://nodejs.org/en/download/), [Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable) (or use npm), [Docker](https://docs.docker.com/get-docker/), and [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git), then:
@@ -75,7 +68,7 @@ This application was developed in order to learn and practice GraphQL and Mongoo
 # clone this repo
 $ git clone https://github.com/felipejsborges/pokemon-challenge.git
 
-# go to folder
+# go to the folder
 $ cd pokemon-challenge
 
 # install dependencies
@@ -89,6 +82,13 @@ $ yarn start:dev
 
 # [Access GraphQL playground](http://localhost:4000/graphql)
 ```
+<hr>
+
+<h4>Using app 📡</h4>
+- GraphQL provides a automatic documentation that could be consulted to see all possible requests
+
+- Most queries could be executed on GraphQL playground. But file upload must be done using Insomia or Postman: [Click here](.github/insomnia.json), copy the content, create .json with it, and import it on [Insomnia](https://insomnia.rest/)
+
 <hr>
 
 by Felipe Borges<br>
