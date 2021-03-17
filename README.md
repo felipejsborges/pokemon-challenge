@@ -78,9 +78,9 @@ $ docker run -p 27017:27017 -d mongo
 
 # run the server
 $ yarn start:dev
-
-# [Access GraphQL playground](http://localhost:4000/graphql)
 ```
+- [Access GraphQL playground](http://localhost:4000/graphql)
+
 <hr>
 
 <h4>Using app 📡</h4>
