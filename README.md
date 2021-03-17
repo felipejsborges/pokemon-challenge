@@ -2,7 +2,6 @@
 	<h1>Pokemon Challenge</h1>
 	<br>
 	<p align="center">
-		<img alt="Repository size" src="https://img.shields.io/github/repo-size/felipejsborges/pokemon-challenge">
 		<a href="https://www.linkedin.com/in/felipejsborges/">
 		  <img alt="made by" src="https://img.shields.io/badge/made%20by-Felipe%20Borges-orange">
 		</a>
@@ -79,12 +78,13 @@ $ docker run -p 27017:27017 -d mongo
 
 # run the server
 $ yarn start:dev
-
-# [Access GraphQL playground](http://localhost:4000/graphql)
 ```
+- [Access GraphQL playground](http://localhost:4000/graphql)
+
 <hr>
 
 <h4>Using app 📡</h4>
+
 - GraphQL provides a automatic documentation that could be consulted to see all possible requests
 
 - Most queries could be executed on GraphQL playground. But file upload must be done using Insomia or Postman: [Click here](.github/insomnia.json), copy the content, create .json with it, and import it on [Insomnia](https://insomnia.rest/)
