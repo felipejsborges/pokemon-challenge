@@ -42,8 +42,8 @@
 <h4>Description 📄</h4>
   
 This application was developed in order to learn and practice GraphQL and Mongoose. To do that, I based on a Pokemon Challenge. What I had to do is:
-- 1. Download a CSV File with all pokemons and their attributes: [Download CSV FIle](https://www.kaggle.com/rounakbanik/pokemon).
-- 2. Create a script to populate database with this data.
+- Download a CSV File with all pokemons and their attributes: [Download CSV FIle](https://www.kaggle.com/rounakbanik/pokemon).
+- Create a script to populate database with this data.
 - Create a GraphQL query that allow tho show 10 random pokemons. And it need to be possible to filter pokemons by attributes.
 - Save the randomly generated pokemons in a collection.
 - Avatar picture upload for pokemons
